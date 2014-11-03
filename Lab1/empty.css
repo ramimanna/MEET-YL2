@@ -1,0 +1,40 @@
+#title{
+	color:#aaa;
+	font-family:sans-serif;
+}
+#menubar{
+	background-color: #239;
+
+}
+ul, li{
+	list-style-type: none;
+	display:inline;
+	padding-right:30px;
+	margin: 30px;
+	padding: 30px;
+
+}
+a {
+	text-decoration: none;
+	font-family:sans-serif;
+	color:#ddd;
+}
+
+li :hover {
+	background-color: #5aa;
+}
+body{
+	background-image:url("http://gdj.gdj.netdna-cdn.com/wp-content/uploads/2012/08/minimal-background-pattern-wordpress-12.jpg");
+	}
+#more-title{
+	color:#5aa;
+}
+.body-text{
+	font-family:sans-serif;
+	color:#239;
+}
+img{
+	margin-left: auto;
+	margin-right:auto;
+	position:center;
+}
