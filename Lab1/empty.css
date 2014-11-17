@@ -8,7 +8,7 @@
 	color:#aaa;
 }
 #logo{
-	height:69px;
+	height:70px;
 	width:auto;
 	margin-left:30px;
 	margin-top:0px;
@@ -50,6 +50,10 @@ body{
 #more-title{
 	color:#006B24;
 }
+
+.margin10{
+	margin-top:10px;
+}
 .body-text{
 	color:#eee;
 }
@@ -88,4 +92,17 @@ textarea{
 
 #senior, .guard{
 	display:none;
+}
+
+.animate{
+	max-width:500px;
+	max-height:500px;
+	width:70%;
+	opacity: 0.3;
+
+}
+
+#myself_table{
+	border:5px;
+	border-color: blue;
 }
