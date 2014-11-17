@@ -1,40 +1,91 @@
+*{
+	margin:0;
+	padding:0;
+	white-space: nowrap;
+	font-family:sans;
+}
 #title{
 	color:#aaa;
-	font-family:sans-serif;
+}
+#logo{
+	height:69px;
+	width:auto;
+	margin-left:30px;
+	margin-top:0px;
+}
+#logolist{
+	float: left;
 }
 #menubar{
-	background-color: #239;
-
+	background-color: #622;
+	white-space: nowrap; /*Text will never wrap to next line unless <br> encountered!*/
+	text-align: center;	
 }
-ul, li{
+
+.tabs{
 	list-style-type: none;
-	display:inline;
-	padding-right:30px;
-	margin: 30px;
-	padding: 30px;
+	display:inline-block;
+	padding-right:100px;
+	padding-left:100px;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size:42px;
 
 }
+
 a {
 	text-decoration: none;
-	font-family:sans-serif;
 	color:#ddd;
 }
 
-li :hover {
-	background-color: #5aa;
+#tab1{
+	color:#777;	/*can only apply color to innermost tag - the one with acual text in it, in this case: <a>*/
+}
+a:hover,#tab1:hover {
+	color:#006B24;
 }
 body{
-	background-image:url("http://gdj.gdj.netdna-cdn.com/wp-content/uploads/2012/08/minimal-background-pattern-wordpress-12.jpg");
+	background-image:url("gray.png");
 	}
 #more-title{
-	color:#5aa;
+	color:#006B24;
 }
 .body-text{
-	font-family:sans-serif;
-	color:#239;
+	color:#eee;
 }
-img{
-	margin-left: auto;
-	margin-right:auto;
-	position:center;
+
+
+/* FORMS */
+.gray{
+	color:gray;
+}
+
+textarea{
+	width:450px;
+	height:150px;
+	border-radius:20px;
+	padding:20px;
+	resize:none;
+	outline:none; /*Removes blue selection box (happens when clicked)*/
+}
+.button{
+	border-radius:10px;
+	width:120px;
+	height:37.5px;
+	margin:10px;
+	background-color:#19A347;
+	
+	border:none;
+	outline:none;
+	box-shadow: none;
+
+	color:white;
+	font-size: 14px;
+}
+.button:hover{
+	background-color:#006B24;
+}
+
+#senior, .guard{
+	display:none;
 }

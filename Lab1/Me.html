@@ -1,20 +1,34 @@
 <DOCTYPE! html>
 <html>
 <head>
-	<title>Profile</title>
+	<title>Me, myself, and More Me . . .</title>
 	<link rel="stylesheet" type="text/css" href="empty.css">
+	<!-- JQUERY: -->
+	<link rel="stylesheet" href="jquery-ui.min.css">
+	<script src="external/jquery/jquery.js"></script>
+	<script src="jquery-ui.min.js"></script>
+	<!-- JS-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="empty.js"></script>
+
 </head>
 <body>
 <h1 id="title">
-	Me, myself, and More Me . . .
+	
 <div id = "menubar">
 	<ul>
-		<li><a href="Me.html">Me</a></li>
-		<li><a href="Myslef.html">Myself</a></li>
-		<li><a href="More.html">More Me</a></li>
+		<li id="logolist"><a href="Me.html"><img id="logo" src="Me.png"></a></li>
+		<!-- <li class="tabs"><a href="Me.html">Me</a></li> -->
+		<li class="tabs"><a id="tab1" href="Myslef.html">Myself</a></li>
+		<li class="tabs"><a href="More.html">More Me</a></li>
 	</ul>
 </div>
-<div><img src="senior-page.png">
+<div>
+	<center>
+		<img class="guard" src="guard.png">
+		<img id="senior" src="senior-page.png">
+		<img class="guard" src="guard.png">
+	</center>
 </div>
 </body>
 </html>
